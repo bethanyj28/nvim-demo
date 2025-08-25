@@ -1,0 +1,15 @@
+		{
+			name: "Test Person Read happy path",
+			fields: fields{
+				Name:          "Alice",
+				FavoriteGenre: "Technical",
+			},
+			args: args{
+				book: Book{
+					Title:  "The Go Programming Language",
+					Author: "Alan Donovan",
+					Pages:  380,
+				},
+			},
+			want: "Alice is reading 'The Go Programming Language' by Alan Donovan (370 pages)",
+		},
