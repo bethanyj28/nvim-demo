@@ -17,7 +17,6 @@ type Reader interface {
 	GetFavoriteGenre() string
 }
 
-// Person struct    represents a human reader
 type Person struct {
 	Name          string
 	FavoriteGenre string
