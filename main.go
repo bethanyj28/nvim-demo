@@ -7,9 +7,9 @@ import (
 )
 
 type Book struct {
-	Title  string `json:"title,omitempty"`
-	Author string `json:"author,omitempty"`
-	Pages  int    `json:"pages,omitempty"`
+	Title  string
+	Author string
+	Pages  int
 }
 
 type Reader interface {
